@@ -1,0 +1,9 @@
+# Пример регулярного запуска (Linux/macOS).
+# Установка: crontab -e, затем вставить строку ниже, подставив свой путь.
+#
+# Формат: минута час день месяц день_недели команда
+# Каждый день в 03:00:
+0 3 * * * cd /opt/youtube-parser && ./venv/bin/python parser.py >> cron.log 2>&1
+
+# Каждые 6 часов (вместо строки выше):
+# 0 */6 * * * cd /opt/youtube-parser && ./venv/bin/python parser.py >> cron.log 2>&1
