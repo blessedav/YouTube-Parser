@@ -1,0 +1,11 @@
+api.env
+.env
+venv/
+__pycache__/
+youtube.db
+parser.log*
+cron.log
+.DS_Store
+~$*
+CLAUDE.md
+ТЗ YouTube.pdf

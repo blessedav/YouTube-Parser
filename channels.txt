@@ -1,0 +1,13 @@
+# Список каналов: один канал на строку.
+# Можно писать @имя канала или ID вида UCxxxx.
+# Строки с # игнорируются. Чтобы добавить или убрать канал, просто правьте этот файл.
+@GoogleDevelopers
+@MrBeast
+@veritasium
+@kurzgesagt
+@TED
+@Fireship
+@mkbhd
+@Vsauce
+@LinusTechTips
+@Computerphile
